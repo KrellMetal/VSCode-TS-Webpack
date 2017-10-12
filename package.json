@@ -1,0 +1,36 @@
+{
+  "name": "vscode-ts-webpack",
+  "version": "0.0.1",
+  "description": "Visual Studio Code Template for Typescript with Webpack",
+  "main": "main.js",
+  "scripts": {
+    "serve": "http-server wwwroot -c-1",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KrellMetal/VSCode-TS-Webpack.git"
+  },
+  "keywords": [
+    "TS",
+    "TypeScript",
+    "WebPack",
+    "VS",
+    "Code"
+  ],
+  "author": "KrellMetal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KrellMetal/VSCode-TS-Webpack/issues"
+  },
+  "homepage": "https://github.com/KrellMetal/VSCode-TS-Webpack#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.1.1",
+    "http-server": "^0.10.0",
+    "source-map-loader": "^0.2.2",
+    "ts-loader": "^2.3.7",
+    "typescript": "^2.5.3",
+    "webpack": "^3.7.1"
+  }
+}
